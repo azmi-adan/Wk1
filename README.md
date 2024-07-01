@@ -42,4 +42,19 @@ If the driver accumulates more than 12 demerit points, it logs “License suspen
 Usage
 Include the calculateDemeritPoints function in your JavaScript code.
 Call the function with the speed as an argument.ge2.js
+   
 
+   #challenge3.js
+   Net Salary Calculator 
+What Does This Function Do?
+The calculateNetSalary function helps us figure out how much money an individual takes home after all the deductions. 
+
+How Does It Work?
+Input Parameters:
+basicSalary: This is the main chunk of money you earn (like your monthly salary).
+benefits: These are extra perks or allowances you might get (like bonuses or housing allowances).
+Calculations:
+We add the basicSalary and benefits together to find the total income (called the “gross salary”).
+Then we calculate the tax (PAYE) based on the gross salary. The more you earn, the more tax you pay.
+Next, we figure out the NHIF deduction (for health insurance) and the NSSF deduction (for social security).
+Finally, we subtract all these deductions from the gross salary to get the actual money you take home (the “net salary”).
