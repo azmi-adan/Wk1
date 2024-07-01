@@ -1,7 +1,9 @@
+const prompt = require("prompt-sync")({ sigint: true });
 function calculateGrade() {
     // Prompt user for input
     const input = prompt("Enter the student's marks (between 0 and 100):");
     console.log(`You entered: ${input}`);
+    
     // Convert input to a number
     const marks = parseFloat(input);
     
