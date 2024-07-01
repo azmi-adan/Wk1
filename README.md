@@ -3,6 +3,7 @@
 
 This JavaScript function prompts the user to input student marks and calculates the corresponding grade based on predefined criteria.
 
+
 ## Functionality
 
 The function performs the following steps:
